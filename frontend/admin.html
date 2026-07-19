@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Produtos — Lab SQS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero hero-small">
+    <div class="hero-content">
+      <p class="eyebrow">Painel Admin</p>
+      <h1>Cadastro de Produtos</h1>
+      <p>Cadastre produtos no catálogo. A imagem é enviada automaticamente para o S3.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <form id="form-cadastro" class="form-cadastro">
+      <div class="form-group">
+        <label for="nome">Nome do produto *</label>
+        <input id="nome" type="text" maxlength="150" required placeholder="Ex.: Arroz Branco Tipo 1">
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="marca">Marca *</label>
+          <input id="marca" type="text" maxlength="100" required placeholder="Ex.: Sabor da Terra">
+        </div>
+        <div class="form-group">
+          <label for="categoria">Categoria *</label>
+          <input id="categoria" type="text" maxlength="80" required placeholder="Ex.: Alimentos">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="preco">Preço (R$) *</label>
+          <input id="preco" type="number" step="0.01" min="0" required placeholder="25.90">
+        </div>
+        <div class="form-group">
+          <label for="unidade">Unidade *</label>
+          <input id="unidade" type="text" maxlength="80" required placeholder="Ex.: Pacote 5 kg">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="imagem">Imagem do produto *</label>
+        <input id="imagem" type="file" accept="image/png,image/jpeg,image/webp" required>
+        <small>PNG, JPG ou WebP (máx. 3 MB)</small>
+      </div>
+
+      <button type="submit" id="btn-cadastrar">Cadastrar Produto</button>
+    </form>
+
+    <div id="status-cadastro" class="state hidden" role="status"></div>
+    <div id="erro-cadastro" class="state error hidden" role="alert"></div>
+    <div id="sucesso-cadastro" class="state sucesso hidden" role="status"></div>
+
+    <nav class="nav-link">
+      <a href="index.html">← Voltar para pesquisa</a>
+    </nav>
+  </main>
+
+  <script src="admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesquisa de Produtos — Lab SQS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <p class="eyebrow">Laboratório AWS — Amazon SQS</p>
+      <h1>Pesquisa de Produtos</h1>
+      <p>Pesquise um produto do catálogo. A requisição é processada de forma assíncrona via Amazon SQS.</p>
+      <form id="form-pesquisa" class="search" role="search">
+        <label class="sr-only" for="termo">Nome do produto</label>
+        <input id="termo" type="search" maxlength="100"
+               placeholder="Ex.: arroz, café, feijão, leite..." autocomplete="off">
+        <button type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="carregando" class="state hidden" role="status">Processando pesquisa...</div>
+    <div id="erro" class="state error hidden" role="alert"></div>
+    <section id="resultado" class="hidden" aria-live="polite"></section>
+
+    <nav class="nav-link">
+      <a href="admin.html">Cadastrar produtos</a>
+    </nav>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

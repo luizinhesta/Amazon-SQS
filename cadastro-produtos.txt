@@ -1,0 +1,105 @@
+# Cadastro dos 10 produtos
+# Use estes dados na página admin.html para cadastrar cada produto.
+# O nome simples gera um slug simples, facilitando a pesquisa.
+#
+# Na pesquisa, digite exatamente o slug gerado (mostrado abaixo).
+
+=== PRODUTO 1 ===
+Nome: Arroz
+Marca: Sabor da Terra
+Categoria: Alimentos
+Preço: 25.90
+Unidade: Pacote 5 kg
+Imagem: frontend/images/produtos/arroz.png
+Slug gerado: arroz
+Pesquisar por: arroz
+
+=== PRODUTO 2 ===
+Nome: Feijao
+Marca: Sabor da Terra
+Categoria: Alimentos
+Preço: 8.99
+Unidade: Pacote 1 kg
+Imagem: frontend/images/produtos/feijao.png
+Slug gerado: feijao
+Pesquisar por: feijao
+
+=== PRODUTO 3 ===
+Nome: Leite
+Marca: Fazenda Clara
+Categoria: Bebidas
+Preço: 5.49
+Unidade: Caixa 1 litro
+Imagem: frontend/images/produtos/leite.png
+Slug gerado: leite
+Pesquisar por: leite
+
+=== PRODUTO 4 ===
+Nome: Cafe
+Marca: Serra Alta
+Categoria: Bebidas
+Preço: 18.90
+Unidade: Pacote 500 g
+Imagem: frontend/images/produtos/cafe.png
+Slug gerado: cafe
+Pesquisar por: cafe
+
+=== PRODUTO 5 ===
+Nome: Acucar
+Marca: Doce Lar
+Categoria: Alimentos
+Preço: 4.79
+Unidade: Pacote 1 kg
+Imagem: frontend/images/produtos/acucar.png
+Slug gerado: acucar
+Pesquisar por: acucar
+
+=== PRODUTO 6 ===
+Nome: Refrigerante
+Marca: Brisa
+Categoria: Bebidas
+Preço: 9.49
+Unidade: Garrafa 2 litros
+Imagem: frontend/images/produtos/refrigerante.png
+Slug gerado: refrigerante
+Pesquisar por: refrigerante
+
+=== PRODUTO 7 ===
+Nome: Macarrao
+Marca: Casa Italiana
+Categoria: Alimentos
+Preço: 5.29
+Unidade: Pacote 500 g
+Imagem: frontend/images/produtos/macarrao.png
+Slug gerado: macarrao
+Pesquisar por: macarrao
+
+=== PRODUTO 8 ===
+Nome: Oleo
+Marca: Cozinha Leve
+Categoria: Alimentos
+Preço: 7.69
+Unidade: Garrafa 900 ml
+Imagem: frontend/images/produtos/oleo.png
+Slug gerado: oleo
+Pesquisar por: oleo
+
+=== PRODUTO 9 ===
+Nome: Farinha
+Marca: Moinho Real
+Categoria: Alimentos
+Preço: 6.39
+Unidade: Pacote 1 kg
+Imagem: frontend/images/produtos/farinha.png
+Slug gerado: farinha
+Pesquisar por: farinha
+
+=== PRODUTO 10 ===
+Nome: Sal
+Marca: Mar Azul
+Categoria: Alimentos
+Preço: 2.89
+Unidade: Pacote 1 kg
+Imagem: frontend/images/produtos/sal.png
+Slug gerado: sal
+Pesquisar por: sal
